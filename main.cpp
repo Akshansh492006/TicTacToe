@@ -1,14 +1,7 @@
-#include "Board.h"
-#include <iostream>
+#include "Game.h"
 
 int main() {
-    std::cout << "====================================\n";
-    std::cout << "   Welcome to C++ Tic-Tac-Toe!      \n";
-    std::cout << "====================================\n";
-
-    Board gameBoard;
-    gameBoard.display();
-
+    Game ticTacToe;
+    ticTacToe.run();
     return 0;
 }
-
