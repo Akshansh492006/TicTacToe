@@ -2,6 +2,7 @@
 #define GAME_H
 
 #include <SFML/Graphics.hpp>
+#include <string>
 #include "Board.h"
 
 class Game {
@@ -12,6 +13,10 @@ private:
     char aiSymbol;
     char humanSymbol;
     bool gameOver;
+
+    std::string playerXName;
+    std::string playerOName;
+    std::string enteredPlayerOName;
 
     sf::RenderWindow window;
     sf::Font font;
